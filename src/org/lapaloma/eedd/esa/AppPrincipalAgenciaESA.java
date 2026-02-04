@@ -23,7 +23,7 @@ public class AppPrincipalAgenciaESA {
 
         ICuerpoCelesteDAO interfazAlumno= null;
         int idCuerpo= 2;  // Se usará para buscar el cuerpo Celeste que tiene como identificador 2
-        System.out.println("Cuerpo celeste con identificador: " + idCuerpo + " [realizado por JAEC]");
+        System.out.println("Cuerpo celeste con identificador: " + idCuerpo + " [realizado por JAEC en 04-02-2026]");
 
         interfazAlumno = new CuerpoCelesteDaoArray();
         // Consultar de Cuerpo Celeste por ID
